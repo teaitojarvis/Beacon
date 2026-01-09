@@ -1,102 +1,48 @@
 # Beacon
-Beacon is an open-source governance layer for personal AI agents, focused on human sovereignty, explicit consent, and full observability.
 
-# Beacon
+[![License: MPL-2.0](https://img.shields.io/badge/License-MPL--2.0-blue.svg)](LICENSE)
+[![CI](https://github.com/teaitojarvis/Beacon/actions/workflows/ci.yml/badge.svg)](https://github.com/teaitojarvis/Beacon/actions/workflows/ci.yml)
+[![Python package](https://img.shields.io/badge/PyPI-coming%20soon-lightgrey.svg)](#)
 
-**Beacon** is an open-source governance layer for personal AI agents.
+Beacon is a governance layer for personal AI agents, focused on human sovereignty, explicit consent, and radical observability.
 
-It is not an assistant.
-It is not an autonomous system.
-It is not a platform.
+## Project status
 
-Beacon exists to ensure that powerful AI agents remain:
-- **bounded**
-- **observable**
-- **revocable**
-- **under explicit human control**
+Beacon is in pre-alpha. The public scope is a minimal, auditable governance core.
 
----
+## Quick start (coming soon)
 
-## What Beacon Is
+Setup instructions will arrive alongside the first runnable prototype.
 
-Beacon is a **sovereign guardian layer** that sits between a human and one or more AI agents.
+## Core principles
 
-It provides:
-- explicit consent and approval pipelines (HITL)
-- sandboxed execution
+- **Human sovereignty**: the human remains the sole decision-maker.
+- **Explicit consent**: no implicit or irreversible delegation.
+- **Radical observability**: what cannot be inspected must not be automated.
+- **Local-first**: data stays on the user’s machine by default.
+
+## What Beacon is
+
+Beacon sits between a human and one or more AI agents to govern how actions are approved, executed, and logged. It provides:
+
+- approval pipelines with human-in-the-loop (HITL) controls
+- scoped permissions and sandboxed execution
 - structured evidence of actions taken
-- transparency over tools, models, and biases
-- local-first observability by default
+- transparent records of tools, models, and policies
 
-Beacon does not act.
-It **governs how agents are allowed to act**.
+Beacon does not act. It governs how agents are allowed to act.
 
----
-
-## What Beacon Is Not
+## Beacon is not...
 
 Beacon is **not**:
+
 - a general-purpose AI assistant
 - an autonomous decision-maker
-- a collective governance system
-- a social optimization tool
-- an AGI experiment
+- a social optimization platform
+- an AGI or autonomy experiment
 
 Any evolution toward these directions is considered a breaking change.
 
----
-
-## Core Principles
-
-- **Human sovereignty**  
-  The human remains the sole decision-maker.
-
-- **Explicit delegation**  
-  No implicit, persistent, or irreversible action.
-
-- **Supervised agentivity**  
-  Agents may propose, never impose.
-
-- **Radical observability**  
-  What cannot be inspected must not be automated.
-
-- **Transparency over comfort**  
-  Closed tools are allowed, never invisible.
-
----
-
-## Architecture Overview
-
-Beacon is built around a minimal, auditable core:
-- policy and approval gates
-- scoped permissions
-- sandboxed execution
-- structured action logs and evidence packs
-
-Protective mechanisms are implemented through dedicated modules,
-such as **Beacon Aegis** (policy enforcement and consent control).
-
----
-
-## Philosophy
-
-Beacon treats AI as a **power tool**, not as a partner or authority.
-
-It is healthier to build **personal, revocable, inspectable tools**
-than to delegate agency to opaque systems “for the greater good”.
-
-Beacon is a companion framework — not a destiny.
-
----
-
-## Status
-
-Beacon is under active development.
-The public version focuses on governance primitives, not on personal data or private memories.
-
----
-
 ## License
 
-MPL 2.0
-Details in `LICENSE`.
+MPL 2.0. See [`LICENSE`](LICENSE).
